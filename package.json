@@ -1,0 +1,27 @@
+{
+  "name": "bitcannon",
+  "version": "0.0.1",
+  "description": "A library and cli for the torrent site backup program.",
+  "author": "Stephen Smith <stephen304@gmail.com>",
+  "keywords": [
+    "bitcannon",
+    "bittorrent",
+    "bit-torrent",
+    "torrent"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stephen304/node-bitcannon"
+  },
+  "bugs": {
+    "url": "https://github.com/stephen304/node-bitcannon/issues"
+  },
+  "preferGlobal": true,
+  "main": "./lib/bitcannon.js",
+  "bin": "./bin/bitcannon-cli.js",
+  "directories": {
+    "bin": "./bin",
+    "lib": "./lib"
+  },
+  "license": "MIT"
+}
